@@ -38,9 +38,9 @@ function render(variables = {}) {
           <h3>${variables.city},${variables.country}</h3>
           <ul class="${variables.socialMediaPosition}">
             <li><a href="https://twitter.com/${variables.twitter}"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="${variables.github}"><i class="fab fa-github"></i></a></li>
-            <li><a href="${variables.linkedin}"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="${variables.instagram}"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://github.com/?ef_id=_k_Cj0KCQiAoeGuBhCBARIsAGfKY7x--jRgw2bN2D2AHpxTv3XuKneppoFFy9KyRD0kML5EJiYVwX_MhLMaAnuAEALw_wcB_k_&OCID=AIDcmmcwpj1e5v_SEM__k_Cj0KCQiAoeGuBhCBARIsAGfKY7x--jRgw2bN2D2AHpxTv3XuKneppoFFy9KyRD0kML5EJiYVwX_MhLMaAnuAEALw_wcB_k_&gad_source=1&gclid=Cj0KCQiAoeGuBhCBARIsAGfKY7x--jRgw2bN2D2AHpxTv3XuKneppoFFy9KyRD0kML5EJiYVwX_MhLMaAnuAEALw_wcB${variables.github}"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/${variables.linkedin}"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/${variables.instagram}"><i class="fab fa-instagram"></i></a></li>
           </ul>
         </div>
     `;
